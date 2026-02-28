@@ -74,8 +74,8 @@
                 <li><a>Contact Us</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl">
-              <img src="./images/logo2.png" alt="" />
+            <a class="text-xl">
+              <img class="w-4/6 md:w-auto" src="./images/logo2.png" alt="" />
             </a>
           </div>
           <div class="navbar-center hidden lg:flex">
@@ -102,12 +102,12 @@
       </nav>
 
       <!-- Hero section -->
-      <div class="hero my-14">
+      <div class="hero my-0 md:my-14">
         <div
-          class="hero lg:h-[550px] rounded-lg"
+          class="hero min-h-screen lg:h-[550px] lg:rounded-lg"
           style="background-image: url(./images/banner.png)"
         >
-          <div class="hero-overlay rounded-lg"></div>
+          <div class="hero-overlay lg:rounded-lg"></div>
           <div class="hero-content text-neutral-content text-center">
             <div class="max-w-max">
               <h1 class="mb-5 text-5xl font-bold eb-garamond-font">
@@ -124,7 +124,9 @@
                 placeholder="Search your services"
                 class="input text-gray-600"
               />
-              <button class="btn border-none text-white bg-color-primary">
+              <button
+                class="btn border-none text-white bg-color-primary mt-5 md:m-0"
+              >
                 Search
               </button>
             </div>
@@ -279,6 +281,234 @@
                 <img src="./images/Frame.png" alt="" />
                 <a href=""></a>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Client Review -->
+      <section>
+        <div>
+          <!-- Text -->
+          <div>
+            <h1 class="text-5xl font-bold eb-garamond-font text-center">
+              What Our Client Say
+            </h1>
+            <p class="text-center text-gray-500 my-14">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have <br />
+              suffered alteration in some form, by injected humour.
+            </p>
+          </div>
+
+          <!-- Client Review -->
+          <div>
+            <div class="carousel w-full">
+              <div
+                id="slide1"
+                class="carousel-item relative w-full lg:h-[450px] lg:rounded-lg"
+              >
+                <div
+                  class="hero w-full lg:rounded-lg"
+                  style="background-image: url(./images/banner.png)"
+                >
+                  <div class="hero-overlay lg:rounded-lg"></div>
+                  <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-max">
+                      <div class="flex justify-center mb-5">
+                        <img src="./images/person.png" alt="" />
+                      </div>
+                      <h1 class="font-bold">Awlad Hossain</h1>
+                      <p>UIX Designer</p>
+                      <p class="mb-5 text-gray-300 w-8/10 mx-auto mt-5">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.
+                        Richard McClintock, a Latin professor at Hampden-Sydney
+                        College in Virginia, looked up one of the more obscure
+                        Latin words, consectetur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                >
+                  <a href="#slide4" class="btn btn-ghost btn-circle">❮</a>
+                  <a href="#slide2" class="btn btn-ghost btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide2" class="carousel-item relative w-full">
+                <div
+                  class="hero w-full lg:rounded-lg"
+                  style="background-image: url(./images/banner.png)"
+                >
+                  <div class="hero-overlay lg:rounded-lg"></div>
+                  <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-max">
+                      <div class="flex justify-center mb-5">
+                        <img src="./images/person.png" alt="" />
+                      </div>
+                      <h1 class="font-bold">Awlad Hossain</h1>
+                      <p>UIX Designer</p>
+                      <p class="mb-5 text-gray-300 w-8/10 mx-auto mt-5">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.
+                        Richard McClintock, a Latin professor at Hampden-Sydney
+                        College in Virginia, looked up one of the more obscure
+                        Latin words, consectetur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                >
+                  <a href="#slide1" class="btn btn-ghost btn-circle">❮</a>
+                  <a href="#slide3" class="btn btn-ghost btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide3" class="carousel-item relative w-full">
+                <div
+                  class="hero w-full lg:rounded-lg"
+                  style="background-image: url(./images/banner.png)"
+                >
+                  <div class="hero-overlay lg:rounded-lg"></div>
+                  <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-max">
+                      <div class="flex justify-center mb-5">
+                        <img src="./images/person.png" alt="" />
+                      </div>
+                      <h1 class="font-bold">Awlad Hossain</h1>
+                      <p>UIX Designer</p>
+                      <p class="mb-5 text-gray-300 w-8/10 mx-auto mt-5">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.
+                        Richard McClintock, a Latin professor at Hampden-Sydney
+                        College in Virginia, looked up one of the more obscure
+                        Latin words, consectetur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                >
+                  <a href="#slide2" class="btn btn-ghost btn-circle">❮</a>
+                  <a href="#slide4" class="btn btn-ghost btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide4" class="carousel-item relative w-full">
+                <div
+                  class="hero w-full lg:rounded-lg"
+                  style="background-image: url(./images/banner.png)"
+                >
+                  <div class="hero-overlay lg:rounded-lg"></div>
+                  <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-max">
+                      <div class="flex justify-center mb-5">
+                        <img src="./images/person.png" alt="" />
+                      </div>
+                      <h1 class="font-bold">Awlad Hossain</h1>
+                      <p>UIX Designer</p>
+                      <p class="mb-5 text-gray-300 w-8/10 mx-auto mt-5">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.
+                        Richard McClintock, a Latin professor at Hampden-Sydney
+                        College in Virginia, looked up one of the more obscure
+                        Latin words, consectetur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                >
+                  <a href="#slide3" class="btn btn-ghost btn-circle">❮</a>
+                  <a href="#slide1" class="btn btn-ghost btn-circle">❯</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Questions section -->
+      <section>
+        <div>
+          <!-- Text -->
+          <div>
+            <h1 class="text-5xl font-bold eb-garamond-font text-center mt-24">
+              Frequently Asked Any Questions
+            </h1>
+            <p class="text-center text-gray-500 my-7">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have <br />
+              suffered alteration in some form, by injected humour.
+            </p>
+          </div>
+
+          <!-- question container  -->
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+            <div>
+              <div
+                class="collapse collapse-plus bg-base-200 border border-base-300"
+              >
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title font-bold eb-garamond-font">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </div>
+              </div>
+              <div
+                class="collapse collapse-plus bg-base-200 border border-base-300 mt-5"
+              >
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-bold eb-garamond-font">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </div>
+              </div>
+              <div
+                class="collapse collapse-plus bg-base-200 border border-base-300 mt-5"
+              >
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-bold eb-garamond-font">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </div>
+              </div>
+              <div
+                class="collapse collapse-plus bg-base-200 border border-base-300 mt-5"
+              >
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-bold eb-garamond-font">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </div>
+              </div>
+            </div>
+            <div>
+              <img class="w-4/6 mx-auto" src="./images/faq.png" alt="" />
             </div>
           </div>
         </div>
